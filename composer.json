@@ -1,0 +1,17 @@
+{
+  "name": "dulmer/astrometry",
+  "description": "Laravel Package to provide an astrometry.net API client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Ulmer",
+      "email": "code@denisulmer.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.x|5.1.x|5.2.x",
+    "guzzlehttp/guzzle": "^6.2"
+  }
+}
