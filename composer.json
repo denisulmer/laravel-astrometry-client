@@ -1,6 +1,6 @@
 {
   "name": "schnubertus/laravel-astrometry",
-  "description": "Laravel Package to provide an astrometry.net API client",
+  "description": "Laravel astrometry.net API client",
   "type": "library",
   "license": "MIT",
   "authors": [
