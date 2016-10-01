@@ -2,7 +2,7 @@
 
 namespace DenisUlmer\Astrometry;
 
-use Exception;A
+use Exception;
 use GuzzleHttp\Client as HttpClient;
 use HttpUrlException;
 

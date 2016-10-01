@@ -1,5 +1,5 @@
 {
-  "name": "dulmer/astrometry",
+  "name": "dulmer/laravel-astrometry-client",
   "description": "Laravel Package to provide an astrometry.net API client",
   "type": "library",
   "license": "MIT",
