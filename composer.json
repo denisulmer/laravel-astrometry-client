@@ -13,5 +13,10 @@
             "email": "code@denisulmer.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Schnubertus\\Astrometry\\": "src/"
+        }
+    },
     "minimum-stability": "stable"
 }
