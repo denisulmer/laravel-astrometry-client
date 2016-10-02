@@ -38,10 +38,11 @@ class ServiceProvider extends BaseServiceProvider
             $loginUrl = $app['config']->get('astrometry.urls.login', 'http://nova.astrometry.net/api/login');
             $fileUpload = $app['config']->get('astrometry.urls.file', 'http://nova.astrometry.net/api/upload');
             $urlUpload = $app['config']->get('astrometry.urls.url', 'http://nova.astrometry.net/api/url_upload');
+            $jobStatus = $app['config']->get('astrometry.urls.url', 'http://nova.astrometry.net/api/jobs');
             $apiKey = $app['config']->get('astrometry.api.key', '');
 
             // Initialize Astrometry-Client
-            $astrometryClient = new AstrometryClient($httpClient, $loginUrl, $fileUpload, $urlUpload, $apiKey);
+            $astrometryClient = new AstrometryClient($httpClient, $loginUrl, $fileUpload, $urlUpload, $jobStatus, $apiKey);
 
             // Return Astrometry-Client
             return $astrometryClient;

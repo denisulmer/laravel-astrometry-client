@@ -1,6 +1,6 @@
 <?php
 
-namespace DenisUlmer\Astrometry;
+namespace Schnubertus\Astrometry;
 
 use Exception;
 use GuzzleHttp\Client as HttpClient;
