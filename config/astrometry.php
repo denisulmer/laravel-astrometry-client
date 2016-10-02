@@ -1,5 +1,4 @@
 <?php
-
 return array(
     'connection' => array(
         'urls' => array(

@@ -1,5 +1,5 @@
 <?php
-namespace DenisUlmer\Astrometry;
+namespace Schnubertus\Astrometry;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
