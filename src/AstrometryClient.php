@@ -19,7 +19,7 @@ class AstrometryClient
      */
     public function __construct(HttpClient $httpClient, $loginUrl, $fileUploadUrl, $urlUploadUrl, $jobStatusUrl, $apiKey)
     {
-        // Initialisation
+        // Initialisation of client
         $this->httpClient = $httpClient;
         $this->loginUrl = $loginUrl;
         $this->fileUploadUrl = $fileUploadUrl;
