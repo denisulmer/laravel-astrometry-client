@@ -1,24 +1,17 @@
 {
-  "name": "schnubertus/laravel-astrometry",
-  "description": "Laravel Plugin astrometry.net API client",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Denis Ulmer",
-      "email": "code@denisulmer.com"
-    }
-  ],
-  "require": {
-    "php": ">=5.4.0"
-  },
-  "suggest": {
-    "illuminate/support": "~5.0",
-    "guzzlehttp/guzzle": "~6.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Schnubertus\\Astrometry\\": "src/"
-    }
-  }
+    "name": "schnubertus/astrometry",
+    "description": "Laravel-Plugin implementing a Astrometry.NET client",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.3",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Ulmer",
+            "email": "code@denisulmer.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
